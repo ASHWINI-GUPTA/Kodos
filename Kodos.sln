@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27512.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kodos", "Kodos\Kodos.csproj", "{076722DF-97D5-4495-B7FD-9F2DF6B8744C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3C7C105D-455D-4338-9486-A0CD61851114}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{076722DF-97D5-4495-B7FD-9F2DF6B8744C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076722DF-97D5-4495-B7FD-9F2DF6B8744C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076722DF-97D5-4495-B7FD-9F2DF6B8744C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076722DF-97D5-4495-B7FD-9F2DF6B8744C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7C105D-455D-4338-9486-A0CD61851114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7C105D-455D-4338-9486-A0CD61851114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7C105D-455D-4338-9486-A0CD61851114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7C105D-455D-4338-9486-A0CD61851114}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA2FAC2C-2925-40E6-8BAB-6D4F23D9FF34}
+	EndGlobalSection
+EndGlobal

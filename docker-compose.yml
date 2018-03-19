@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  kodos:
+    image: ${DOCKER_REGISTRY}kodos
+    build:
+      context: .
+      dockerfile: Kodos\Dockerfile
