@@ -1,5 +1,3 @@
-using System;
-
 namespace Kodos.Models
 {
     public class ErrorViewModel
