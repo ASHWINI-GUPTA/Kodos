@@ -8,9 +8,9 @@ using Kodos.Models;
 
 namespace Kodos.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public class ApplicationUserContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public ApplicationUserContext(DbContextOptions<ApplicationUserContext> options)
             : base(options)
         {
         }
