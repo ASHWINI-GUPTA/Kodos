@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Kodos.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Kodos.Data
 {
